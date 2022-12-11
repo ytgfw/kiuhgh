@@ -1,9 +1,7 @@
 #!/bin/sh
-
-#tor &
-/v2ray  run -config=/config.json &
-caddy run --config /etc/caddy/Caddyfile --adapter caddyfile
-
+# V2Ray new configuration
+# Run V2ray
+# Write V2Ray configuration
 cat << EOF > /etc/v2ray/config.json
 {
     "inbounds": [{
